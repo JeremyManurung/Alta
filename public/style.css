@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+small {
+    position: absolute;
+    margin: 3px;
+    visibility: hidden;
+}
+
+.form-control.success input {
+    border: 2px solid rgb(26, 167, 26);
+}
+
+.form-control.error input {
+    border: 2px solid rgb(228, 29, 22);
+}
+
+/* .navbar-new{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+} */
+
+.effect1 {
+    padding: 20%;
+}
+
+.one {
+    background-image: url('img/bg-img.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.heran {
+    padding: 5% 20% 5% 20%;
+    position: absolute;
+    z-index: 1;
+}
+
+.kaki {
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    left: 0px;
+    top: 510px;
+    background: #EDF6FF;
+}
+
+.kaki img {
+    position: absolute;
+    width: 105px;
+    height: 89px;
+    left: 170px;
+    top: 20px;
+
+
+}
+
+.bungkus1 {
+    border: 1px solid #CCD7EB;
+    padding: 40px 40px 100px 40px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.heran hr {
+    width: 300px;
+    height: 0px;
+    left: 452px;
+    top: 355px;
+}
+
+.heran span{
+    padding: 0 0 0 90px;
+}
+
+.heran li {
+    list-style: none;
+}
+
+.beda {
+    padding: 25px 0 0 0;
+}
+
+.tulisan {
+    color: #19345E;
+}
+
+.heran button {
+    background-color: orange;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.heran a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-list {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    padding: 27px 0 0 0;
+}
+
+.navbar-list a {
+    text-decoration: none;
+}
+
+.navbar-list li {
+    list-style: none;
+    color: #19345E;
+
+}
+
+.content {
+    display: grid;
+    position: relative;
+    top: 20%;
+    margin-left: 15%;
+    grid-template-columns: 0.5fr 0.7fr;
+}
+
+.content img {
+    width: 355px;
+    height: 355px;
+    left: 70px;
+    top: 0px;
+    border-radius: 177.5px;
+}
+
+.content h3 {
+    color: #19345E;
+    font-size: 25px;
+}
+
+.content h2 {
+    font-size: 35px;
+}
+
+.content p {
+    font-size: 85px;
+    color: #19345E;
+}
+
+.left-img {
+    background: rgba(25, 52, 94, 0.65);
+}
+
+.left-img img {
+    height: 702px;
+    left: 0px;
+    top: 0px;
+    opacity: 50%;
+}
+
+.left-img-hero img {
+    position: absolute;
+    width: 275px;
+    height: 142px;
+    left: 96px;
+    top: 279px;
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+}
+
+.contact-left {
+    padding: 20px 50px 0 50px;
+}
+
+.btn-alta {
+    background-color: #f47523;
+    color: white;
+}
+
+
+@media screen and (max-width:576px) {
+    .content {
+        position: static;
+        padding: 0%;
+        padding-top: 50px;
+        grid-template-columns: 0.3fr;
+        margin-left: 20%;
+    }
+
+    .one {
+        height: 100%;
+    }
+
+    .contact-left {
+        position: absolute;
+        left: 20%;
+        top: 10%;
+    }
+
+    .contact-left label {
+        color: white;
+    }
+
+    .contact-left h4 {
+        color: white;
+    }
+
+    .bungkus img {
+        width: 489px;
+    }
+
+    .content-right {
+        text-align: center;
+    }
+
+    .content-right p {
+        font-size: 40px;
+    }
+
+    .content-right h2 {
+        font-size: 30px;
+    }
+
+    .content-left img {
+        width: 250px;
+        height: 250px;
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
+
+    .content button {
+        margin-bottom: 20px;
+    }
+}
